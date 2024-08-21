@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>비디오 오디오 태그 연습</title>
+</head>
+<body>
+  <p>영상파일을 표시합니다</p>
+  <!-- 브라우저가 모든 파일 형식을 지원하는 것은 아니므로 표준 형식의 비디오 파일을 사용 -->
+  <video width="640" controls>
+    <source src="images/video.mp4" type="video/mp4">
+    브라우저가 video를 지원 하지 않습니다
+  </video>
+
+  <audio controls="controls" autoplay="autoplay">
+    <source src="images/audio.mp3" type="audio/mp3">
+    이 브라우저는 audio 를 지원하지 않습니다
+  </audio>
+
+  <video width="100%" controls autoplay>
+    <source src="images/sample.mp4" type="video/mp4">
+    브라우저가 video를 지원 하지 않습니다
+  </video>
+
+  <audio controls loop volume="0.5">
+    <source src="images/background.mp3" type="audio/mp3">
+    이 브라우저는 audio 를 지원하지 않습니다
+  </audio>
+</body>
+</html>
